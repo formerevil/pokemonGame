@@ -1,0 +1,202 @@
+.card {
+  width: 430px;
+  box-shadow: 0 8px 16px #0b1025;
+}
+.container {
+  padding: 48px;
+  display: flex;
+  gap: 16px;
+}
+.energy{
+  background-image: url(https://assets.pokemon.com/static2/_ui/img/cards/energy-types.png);
+  background-position: -25px 0px;
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 22px;
+}
+.top.bug{
+  border-top: 10px solid #319a31;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 22px;
+}
+.top.water{
+  border-top: 4px solid #31729a;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 22px;
+}
+.top.rock{
+  border-top: 4px solid #7c4c29;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 22px;
+}
+.top.electric{
+  border-top: 4px solid #9a8931;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 22px;
+}
+.top.fairy{
+  border-top: 4px solid #9a3179;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 22px;
+}
+.top.fire{
+  border-top: 4px solid #934b21;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 22px;
+}
+.top.dark{
+  border-top: 4px solid #5a5f62;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 22px;
+}
+.top.poison{
+  border-top: 4px solid #6b319a;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 22px;
+}
+.move1{
+  display: flex;
+  margin: 5px;
+  border-bottom: 4px solid black;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 19px;
+}
+.energy2{
+  margin: 5px;
+  background-image: url(https://assets.pokemon.com/static2/_ui/img/cards/energy-types.png);
+  background-position: -25px 0px;
+  width: 25px;
+  height: 25px;
+}
+.hp{
+  color: #c41919;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+.move2{
+  display: flex;
+  margin: 5px;
+  border-bottom: 4px solid black;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 19px;
+}
+.energy3{
+  margin: 5px;
+  background-image: url(https://assets.pokemon.com/static2/_ui/img/cards/energy-types.png);
+  background-position: -25px 0px;
+  width: 25px;
+  height: 25px;
+}
+.name{
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+
+}
+.picmarg{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.picmarg.bug {
+  border: 4px solid #319a31;
+}
+.picmarg.water {
+  border: 4px solid #31729a;
+}
+.picmarg.electric {
+  border: 4px solid #9a8931;
+}
+.picmarg.rock {
+  border: 4px solid #7c4c29;
+}
+.picmarg.fairy {
+  border: 4px solid #9a3179;
+}
+.picmarg.fire {
+  border: 4px solid #934b21;
+}
+.picmarg.dark {
+  border: 4px solid #5a5f62;
+}
+.picmarg.poison {
+  border: 4px solid #6b319a;
+}
+.pic{
+  margin: 4px;
+  box-shadow: 0 8px 16px #0b1025;
+}
+
+.title{
+  margin: 5px;
+
+}
+.value{
+  margin: 5px;
+
+}
+.bottom{
+  display: flex;
+  margin: 5px;
+  justify-content: space-between;
+}
+.small{
+  font-size: 13px;
+  font-style: italic;
+}
+.card.bug{
+  background-color: #54d054;
+  border: 4px solid #319a31;
+}
+.card.water{
+   background-color: #54a5d0;
+   border: 4px solid #31729a;
+}
+.card.rock{
+  background-color: #a97c48;
+  border: 4px solid #7c4c29;
+}
+.card.electric{
+  background-color: #d0ca54;
+  border: 4px solid #9a8931;
+}
+.card.fairy{
+  background-color: #d054b3;
+  border: 4px solid #9a3179;
+}
+.card.fire{
+  background-color: #cb6b2f;
+  border: 4px solid #934b21;
+}
+.card.dark{
+  background-color: #7f8588;
+  border: 4px solid #5a5f62;
+}
+.card.poison{
+  background-color: #9454d0;
+  border: 4px solid #6b319a;
+}

@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1 Pokemon Card
+  form(method="POST" action="/card")
+    label(for="type") Type
+    select(name="type" id="type")
+      option(value = "bug") Bug
+      option(value = "water") Water
+      option(value = "rock") Rock
+      option(value = "electric") Electric
+      option(value = "fairy") Fairy
+      option(value = "fire") Fire
+      option(value = "dark") Dark
+      option(value = "poison") Poison
+    br
+    button(type="submit") Reveal Card

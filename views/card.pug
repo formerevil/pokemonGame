@@ -1,0 +1,28 @@
+extends layout
+
+block content
+    div.container
+        div(class=`card ${cardClass}`)
+            div(class=`top ${cardClass}`)
+                div.name
+                    p.label #{pokeName}
+                div.hp
+                    p #{hp}
+                div.energy
+
+            div(class= `picmarg ${cardClass}`)
+                div.pic
+                    img(src=`${cardImage}`)
+
+            div.move1
+                div.energy2
+                div.title
+                    p #{move1}
+                div.value
+                    p #{value}
+            div.move2
+                div.energy3
+                div.title2
+                    p #{move2}
+                div.value2
+                    p #{value2}
